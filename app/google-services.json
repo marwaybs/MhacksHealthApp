@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "765210065881",
+    "firebase_url": "https://mhacks-healthapp.firebaseio.com",
+    "project_id": "mhacks-healthapp",
+    "storage_bucket": "mhacks-healthapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765210065881:android:a29dcb47145b3361",
+        "android_client_info": {
+          "package_name": "healthapp.mhacks_healthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765210065881-or18nn5ri5offosva18laa7k2ca3tur2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmsY9h1uL8q4aJ5iLCJbB-DGP5Ur_G_9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
