@@ -3,15 +3,19 @@ package healthapp.mhacks_healthapp;
 public class UserInformation {
 
     public String medicationName;
-    public String timesADay;
+    public String dosesADay;
+    public String startDate;
+    public String totalDoses;
 
     public UserInformation(){
 
     }
 
-    public UserInformation(String medicationName, String timesADay){
+    public UserInformation(String medicationName, String dosesADay, String startDate, String totalDoses){
         this.medicationName = medicationName;
-        this.timesADay = timesADay;
+        this.dosesADay = dosesADay;
+        this.startDate = startDate;
+        this.totalDoses = totalDoses;
     }
 
     public String getMedicationName(){

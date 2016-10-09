@@ -22,6 +22,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button buttonSignin;
+    private Button buttonDoctor;
     private EditText editTextEmail;
     private EditText editTextPassword;
     private TextView textViewSignup;
@@ -45,16 +46,25 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
         buttonSignin = (Button) findViewById(R.id.buttonSignin);
+        buttonDoctor = (Button) findViewById(R.id.buttonDoctor);
         textViewSignup = (TextView) findViewById(R.id.textViewSignup);
 
         progressDialog = new ProgressDialog(this);
 
         buttonSignin.setOnClickListener(this);
         textViewSignup.setOnClickListener(this);
+        buttonDoctor.setOnClickListener(this);
     }
     private void userLogin(){
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
+
+        //Check for doctor email
+
+        if(email.compareTo("doctor@gmail.com") == 1 && (password.compareTo("password=")) == 1 ){
+            finish();
+            startActivity(new Intent(this, PatientActivity.class));
+        }
 
         if(TextUtils.isEmpty(email)){
             //email is empty
@@ -94,6 +104,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         if (view == textViewSignup) {
             finish();
             startActivity(new Intent(this, MainActivity.class));
+        }
+        if (view == buttonDoctor){
+            finish();
+            startActivity(new Intent(this, PatientActivity.class));
         }
     }
 }

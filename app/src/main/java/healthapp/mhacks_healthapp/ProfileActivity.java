@@ -1,6 +1,7 @@
 package healthapp.mhacks_healthapp;
 
 import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,13 +23,14 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private FirebaseAuth firebaseAuth;
 
     private TextView textViewUserEmail;
+
+    private TextView textViewCurrentMedication;
     private Button buttonLogout;
 
     private DatabaseReference databaseReference;
 
-    private EditText editMedicationName, editTimesADay;
-    private Button buttonSubmit;
     private Button buttonRetrieve;
+    private Button buttonSchedule;
 
 
 
@@ -48,34 +50,25 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         databaseReference = FirebaseDatabase.getInstance().getReference();
 
-        editMedicationName = (EditText) findViewById(R.id.medicationName);
-        editTimesADay = (EditText) findViewById(R.id.timesADay);
-        buttonSubmit = (Button) findViewById(R.id.buttonSubmit);
-
-        FirebaseUser user = firebaseAuth.getCurrentUser();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        String uid = user.getUid();
 
         textViewUserEmail = (TextView) findViewById(R.id.textViewUserEmail);
-
         textViewUserEmail.setText("Welcome " + user.getEmail());
         buttonLogout = (Button) findViewById(R.id.buttonLogout);
 
+        textViewCurrentMedication = (TextView) findViewById(R.id.textViewCurrentMedication);
+
         buttonRetrieve = (Button) findViewById(R.id.buttonRetrieve);
+        buttonSchedule = (Button) findViewById(R.id.buttonSchedule);
 
         buttonLogout.setOnClickListener(this);
-        buttonSubmit.setOnClickListener(this);
         buttonRetrieve.setOnClickListener(this);
+        buttonSchedule.setOnClickListener(this);
+
 
     }
 
-
-    private void saveUserInformation() {
-        String medicationName = editMedicationName.getText().toString().trim();
-        String timesADay = editTimesADay.getText().toString().trim();
-        UserInformation userInformation = new UserInformation(medicationName, timesADay);
-        FirebaseUser user = firebaseAuth.getCurrentUser();
-        databaseReference.child(user.getUid()).setValue(userInformation);
-        Toast.makeText(this, "Information Save...", Toast.LENGTH_LONG).show();
-    }
 
     private void retrieveUserInformation(){
         databaseReference.addValueEventListener(new ValueEventListener() {
@@ -83,10 +76,14 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             public void onDataChange(DataSnapshot dataSnapshot) {
                 //UserInformation update = dataSnapshot.getValue(UserInformation.class);
                 //System.out.println(update.getMedicationName());
+
                 for (DataSnapshot messageSnapshot: dataSnapshot.getChildren()) {
                     String name = (String) messageSnapshot.child("medicationName").getValue();
-                    String num = (String) messageSnapshot.child("timesADay").getValue();
-                    System.out.println(name + " " + num);
+                    String doses = (String) messageSnapshot.child("dosesADay").getValue();
+                    String start = (String) messageSnapshot.child("startDate").getValue();
+                    String total = (String) messageSnapshot.child("totalDoses").getValue();
+                    textViewCurrentMedication.setText("Medication Name: " + name + "\n Doses a day: " +
+                            doses +"\n Start date: " + start +"\n Total doses: " + total);
                 }
             }
 
@@ -96,6 +93,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         });
     }
 
+
     @Override
     public void onClick(View view) {
         if (view == buttonLogout) {
@@ -103,12 +101,12 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             finish();
             startActivity(new Intent(this, LoginActivity.class));
         }
-        if (view == buttonSubmit){
-            editMedicationName.setText("");
-            saveUserInformation();
-        }
         if (view == buttonRetrieve){
             retrieveUserInformation();
+        }
+        if (view == buttonSchedule){
+            finish();
+            startActivity(new Intent(this, SchedulingActivity.class));
         }
     }
 }

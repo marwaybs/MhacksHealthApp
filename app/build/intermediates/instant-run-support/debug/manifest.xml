@@ -35,6 +35,9 @@
         </activity>
         <activity android:name="healthapp.mhacks_healthapp.LoginActivity" />
         <activity android:name="healthapp.mhacks_healthapp.ProfileActivity" />
+        <activity android:name="healthapp.mhacks_healthapp.SchedulingActivity" />
+        <activity android:name="healthapp.mhacks_healthapp.PatientActivity" />
+        <activity android:name="healthapp.mhacks_healthapp.SchedulingEmptyActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

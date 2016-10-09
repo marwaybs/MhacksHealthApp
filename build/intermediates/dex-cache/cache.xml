@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_2bf0c3c1a7f5a02de7ac31843dbbd6d9d3bcb31f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,21 +30,75 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_977a5744b21f48e92d30621cca51c208f5e51f1d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Bhaag/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
         <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_174b78b5d632e7a3f2b2a3b6b91b4ab0cfb5cb7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e1d58dbb103eddd3ffa5f0a3c4e10dbebe7b6537">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f96c19761b73ba656a1292b27a83863b96385d43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2ac9dd72204d0fc4373cb5d7b5e70438e3ae342c">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d8184d681e9d17333d78c80a8e93c6fe107839a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_bb469b06b9e9dca1b5fe6ffb35caf9ac4750c4e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_412b019524ecbf9f531ab19cf7f47175156a90ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_2c3ed6bc8c624fd36e870f03c006914a32f131db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_2bf0c3c1a7f5a02de7ac31843dbbd6d9d3bcb31f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_977a5744b21f48e92d30621cca51c208f5e51f1d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,15 +111,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="cfda402524114fda8ab90cbb348bd1e95e953647">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f96c19761b73ba656a1292b27a83863b96385d43/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,12 +120,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="dc1687a362cfb1cf89226a7180551c3b5a6f1a4f">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d8184d681e9d17333d78c80a8e93c6fe107839a/classes.dex" />
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.0_c2ab84cfddf79557cea46dd2ca1d22bc725f2fe2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -99,15 +135,6 @@
         revision="23.0.2"
         sha1="ac8365c87591065db07f7bac8551504504832cd4">
         <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.1_91f5bca3a3382dd2e02888d470b9e96569918e06/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.0_c2ab84cfddf79557cea46dd2ca1d22bc725f2fe2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,15 +153,6 @@
         revision="23.0.2"
         sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
         <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_d099a05252f2b064840e77b647fe3187245f7f8a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_bb469b06b9e9dca1b5fe6ffb35caf9ac4750c4e5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,24 +180,6 @@
         revision="23.0.2"
         sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
         <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_4472d50238634fc6fdd8a63b0eb3b2dd5f7a4b70/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_412b019524ecbf9f531ab19cf7f47175156a90ef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_2c3ed6bc8c624fd36e870f03c006914a32f131db/classes.dex" />
     </item>
 
 </items>

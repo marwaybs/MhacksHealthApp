@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml
@@ -21,7 +21,7 @@ MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/Bhaag/AndroidStudioP
 	android:name
 		ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:7:5-22:19
+ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.0.0] /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
@@ -65,9 +65,21 @@ ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/Andr
 	android:name
 		ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:20:19-48
 activity#healthapp.mhacks_healthapp.ProfileActivity
-ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:21:9-62
+ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:21:9-53
 	android:name
 		ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:21:19-50
+activity#healthapp.mhacks_healthapp.SchedulingActivity
+ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:22:9-56
+	android:name
+		ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:22:19-53
+activity#healthapp.mhacks_healthapp.PatientActivity
+ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:23:9-53
+	android:name
+		ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:23:19-50
+activity#healthapp.mhacks_healthapp.SchedulingEmptyActivity
+ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:24:9-70
+	android:name
+		ADDED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml:24:19-58
 uses-sdk
 INJECTED from /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:21:5-23:78

@@ -32,6 +32,10 @@
         "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/activity_scheduling.xml",
+        "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/res/layout/activity_scheduling.xml"
+    },
+    {
         "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/select_dialog_multichoice_material.xml"
     },
@@ -80,12 +84,12 @@
         "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
         "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -96,8 +100,16 @@
         "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/activity_patient.xml",
+        "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/res/layout/activity_patient.xml"
+    },
+    {
         "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/activity_scheduling_empty.xml",
+        "source": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/src/main/res/layout/activity_scheduling_empty.xml"
     },
     {
         "merged": "/Users/Bhaag/AndroidStudioProjects/MHacks_HealthApp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",

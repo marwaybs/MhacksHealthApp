@@ -14,37 +14,32 @@
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="User Login"
+            android:text="Welcome!"
             android:id="@+id/textViewUserEmail"
             android:layout_gravity="center_horizontal" />
-        
-        <EditText
-            android:id="@+id/medicationName"
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter medication name"
-            android:layout_gravity="center_horizontal"/>
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Here's your current medication:"
+            android:id="@+id/textViewMedicationHere"
+            android:layout_gravity="center_horizontal" />
 
-        <EditText
-            android:id="@+id/timesADay"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter times a day"
-            android:layout_gravity="center_horizontal"/>
-
-        <Button
-            android:text="Submit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonSubmit"
-            android:layout_gravity="center_horizontal"/>
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Here's your current medication:"
+            android:id="@+id/textViewCurrentMedication"
+            android:layout_gravity="center_horizontal" />
 
         <Button
             android:text="Retrieve"
@@ -54,12 +49,18 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
+            android:text="Schedule Medication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSchedule"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
             android:text="Logout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonLogout"
             android:layout_gravity="center_horizontal"/>
-
 
     </LinearLayout>
 </RelativeLayout>

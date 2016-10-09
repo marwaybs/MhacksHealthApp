@@ -18,7 +18,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SchedulingActivity" />
+        <activity android:name=".PatientActivity" />
+        <activity android:name=".SchedulingEmptyActivity"></activity>
     </application>
 
 </manifest>
